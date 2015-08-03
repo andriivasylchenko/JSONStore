@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Licensed Materials - Property of IBM			 5725-I43 (C) Copyright IBM Corp. 2006, 2013. All Rights Reserved.			 US Government Users Restricted Rights - Use, duplication or             disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<!-- Attribute "id" must be identical to application folder name -->
+<application id="jSoN" platformVersion="7.0.0.00.20150312-0731"  
+  xmlns="http://www.worklight.com/application-descriptor"   
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <displayName>jSoN</displayName>
+  <description>jSoN</description>
+  <author>
+    <name>application's author</name>
+    <email>application author's e-mail</email>
+    <copyright>Copyright My Company</copyright>
+    <homepage>http://mycompany.com</homepage>
+  </author>
+  <mainFile>index.html</mainFile>
+  <thumbnailImage>common/images/thumbnail.png</thumbnailImage>
+  <accessTokenExpiration>3600</accessTokenExpiration>
+  <userIdentityRealms></userIdentityRealms>
+  <features>
+    <JSONStore/>
+  </features>
+  <android version="1.0">
+    <worklightSettings include="false"/>
+    <security>
+      <encryptWebResources enabled="false"/>
+      <testWebResourcesChecksum enabled="false" ignoreFileExtensions="png, jpg, jpeg, gif, mp4, mp3"/>
+      <publicSigningKey/>
+    </security>
+  </android>
+  <desktopBrowser cacheManifest="no-use"/>
+</application>

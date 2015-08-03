@@ -1,0 +1,31 @@
+/* Empty. Add your own CSS if you like */
+body {
+    position: absolute;
+}
+
+.item {
+    padding: 3px!important;
+}
+
+.tableLog {
+    overflow: auto;
+    height: 65px!important;
+    width: 100%!important;
+    overflow-y: scroll;
+}
+
+.tableSize {
+    width: 100%!important;
+}
+
+.item-text-wrap {
+    overflow: hidden!important;
+    white-space: nowrap!important;
+}
+
+.customToggle {
+      line-height: 46px!important;
+      margin-left: 10px!important;
+      margin-top: 3px;
+      border: 0px!important;
+}
